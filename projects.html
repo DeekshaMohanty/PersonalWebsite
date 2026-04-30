@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deeksha Mohanty | Projects</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">DM</a>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="experience.html" class="nav-link">Experience</a></li>
+                <li><a href="projects.html" class="nav-link active">Projects</a></li>
+                <li><a href="skills.html" class="nav-link">Skills</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="page-content">
+        <section class="section">
+            <h1>Projects</h1>
+
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <h3>Convergence Acceleration for TARDIS</h3>
+                    <p class="project-category">Research | Master's Thesis</p>
+                    <p class="project-description">Built a convergence analysis framework with iteration-wise tracking, shell-level ejecta diagnostics, and quantitative error metrics for TARDIS, a Monte Carlo radiative transfer code for supernova simulations.</p>
+                    <ul class="project-tags">
+                        <li>Python</li>
+                        <li>NumPy</li>
+                        <li>Numba</li>
+                        <li>SLURM</li>
+                        <li>HDF5</li>
+                    </ul>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <h3>Neural Cleanse Backdoor Detection</h3>
+                    <p class="project-category">Graduate Project | CSE 850</p>
+                    <p class="project-description">Investigated state-of-the-art backdoor defenses to detect both visible and stealthy triggers by reproducing BadNets and Hidden Trigger attacks on CIFAR-10 and TinyImageNet.</p>
+                    <ul class="project-tags">
+                        <li>PyTorch</li>
+                        <li>Adversarial ML</li>
+                        <li>BadNets</li>
+                        <li>Neural Cleanse</li>
+                    </ul>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <h3>Stellar Spectral Classification</h3>
+                    <p class="project-category">Graduate Project | CSE 802</p>
+                    <p class="project-description">Developed supervised classifiers to automatically assign stars to spectral types (O-M) using the Gaia DR3 dataset (626k samples, 28 features). Achieved 92.97% accuracy with LightGBM.</p>
+                    <ul class="project-tags">
+                        <li>Python</li>
+                        <li>LightGBM</li>
+                        <li>scikit-learn</li>
+                        <li>Random Forest</li>
+                        <li>SVM</li>
+                    </ul>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card">
+                    <h3>Brain Tumor Classification & Segmentation</h3>
+                    <p class="project-category">Graduate Project | CSE 803</p>
+                    <p class="project-description">Built a CLIP-enhanced U-Net for MRI segmentation on BraTS 2020 dataset, achieving 0.7866 Dice score. Implemented DCGAN-based augmentation and collaborated on a Next.js + FastAPI interface.</p>
+                    <ul class="project-tags">
+                        <li>PyTorch</li>
+                        <li>U-Net</li>
+                        <li>DCGAN</li>
+                        <li>CLIP</li>
+                        <li>Vision Transformers</li>
+                    </ul>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="project-card">
+                    <h3>NLTE Matrix Solver Optimization</h3>
+                    <p class="project-category">Research | TARDIS</p>
+                    <p class="project-description">Implemented and benchmarked nonlinear monotone equation solvers (SGP, Multivariate SGP, Spectral Residual) to accelerate the matrix solver for ionization states under NLTE conditions.</p>
+                    <ul class="project-tags">
+                        <li>Python</li>
+                        <li>NumPy</li>
+                        <li>SciPy</li>
+                        <li>Numba</li>
+                    </ul>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="project-card">
+                    <h3>Interactive Logging Framework</h3>
+                    <p class="project-category">Research | TARDIS</p>
+                    <p class="project-description">Led development of a modular interactive logging interface using ipywidgets, separating simulation outputs into dedicated tabs for real-time output, convergence reports, and debugging traces.</p>
+                    <ul class="project-tags">
+                        <li>ipywidgets</li>
+                        <li>JupyterLab</li>
+                        <li>Python</li>
+                    </ul>
+                </div>
+
+                <!-- Project 7 -->
+                <div class="project-card">
+                    <h3>Documentation & Codebase Maintenance</h3>
+                    <p class="project-category">Research | TARDIS</p>
+                    <p class="project-description">Reorganized TARDIS documentation into the Diátaxis framework. Reviewed pull requests, improved developer onboarding, and maintained codebase consistency.</p>
+                    <ul class="project-tags">
+                        <li>Sphinx</li>
+                        <li>GitHub</li>
+                        <li>pytest</li>
+                        <li>GitHub Actions</li>
+                    </ul>
+                </div>
+
+                <!-- Project 8 -->
+                <div class="project-card">
+                    <h3>White Dwarf Candidate Identification</h3>
+                    <p class="project-category">Research | Imperial College</p>
+                    <p class="project-description">Developed Python scripts to preprocess spectroscopic data from DESI database. Conducted FFT analyses and modeled emission-line profiles for cataclysmic variable systems.</p>
+                    <ul class="project-tags">
+                        <li>Python</li>
+                        <li>Astropy</li>
+                        <li>FITS</li>
+                        <li>Signal Processing</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 Deeksha Mohanty. All rights reserved.</p>
+    </footer>
+</body>
+</html>
